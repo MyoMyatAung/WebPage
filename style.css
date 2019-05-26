@@ -1,11 +1,26 @@
-h1{
-color: white;
-text-align : center;
-}
 body{
 	background-color: lightblue;
 }
 p{
 	font-family: verdana;
 	font-size: 20px;
+}
+
+.icon{
+	border: 2px solid #999;
+	border-radius: 4px;
+	float: left;
+}
+
+.title{
+	text-align: center;
+	color: white;
+	margin: 0;
+	top: 50%;
+	-ms-transform : translateY(50%);
+	transform: translateY(50%);
+}
+
+.head-container{
+	position: relative;
 }
